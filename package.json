@@ -1,6 +1,6 @@
 {
   "name": "nba-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A CLI tool to display NBA games and scores.",
   "main": "bin/nba",
   "preferGlobal": true,

@@ -3,6 +3,7 @@ var argument = process.argv[2];
 var argumentSec = process.argv[3];
 var moment = require('moment');
 var NBA = require('../index');
+var help = require('../help');
 var today = moment();
 
 switch (true) {
@@ -21,6 +22,9 @@ switch (true) {
   break;
   case (argument === 'today'):
     NBA();
+  break;
+  case (argument === 'help'):
+    help();
   break;
   default:
     NBA();
