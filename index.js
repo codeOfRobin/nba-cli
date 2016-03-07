@@ -17,7 +17,7 @@ module.exports = function NBA(date) {
 
     var table = new Table({
         head: ['Home', 'Scores', 'Away', 'Status'],
-        colWidths: [30, 10, 30, 30]
+        colWidths: [30, 20, 30, 30]
     });
 
     $('.list .game').each(function() {
