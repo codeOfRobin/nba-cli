@@ -1,0 +1,32 @@
+{
+  "name": "nba-cli",
+  "version": "0.0.1",
+  "description": "A CLI tool to display NBA games and scores.",
+  "main": "bin/nba",
+  "preferGlobal": true,
+  "bin": {
+    "nba": "./bin/nba"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanburgess/nba-cli.git"
+  },
+  "keywords": [
+    "NBA",
+    "scores",
+    "games",
+    "basketball",
+    "schedule",
+    "times",
+    "teams"
+  ],
+  "author": "Ryan Burgess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanburgess/nba-cli/issues"
+  },
+  "homepage": "https://github.com/ryanburgess/nba-cli#readme"
+}
