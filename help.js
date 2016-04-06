@@ -1,9 +1,10 @@
-var pkg = require('./package.json');
-var version = pkg.version;
+'use strict';
+const pkg = require('./package.json');
+const version = pkg.version;
 
 module.exports = function help() {
-  var output = 'NBA CLI Tool\n';
-  output += 'Version ' + version + '\n\n';
+  let output = 'NBA CLI Tool\n';
+  output += `Version ${version}\n\n`;
   output += 'Commands:\n';
   output += '\tnba - Display\'s the scores and schedule for today\n';
   output += '\tnba yesterday - Display\'s the scores and schedule for yesterday\n';
